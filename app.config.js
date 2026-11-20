@@ -108,7 +108,7 @@ export default {
       "expo-secure-store",
       [
         "expo-local-authentication",
-        { faceIDPermission: "Allow $(PRODUCT_NAME) to use Face ID." },
+        { faceIDPermission: "Allow HCB to use Face ID to unlock the app when biometric lock is on." },
       ],
       [
         "@stripe/stripe-terminal-react-native",
